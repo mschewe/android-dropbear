@@ -12,7 +12,7 @@ export PROGRAMS="dropbear dropbearkey dbclient scp"
 
 # Download the latest version of dropbear SSH
 if [ ! -f ~/dropbear-2015.67.tar.bz2 ]; then
-    wget -O ~/dropbear-2015.67.tar.bz2 https://matt.ucc.asn.au/dropbear/dropbear-2015.67.tar.bz2
+    wget -k -O ~/dropbear-2015.67.tar.bz2 https://matt.ucc.asn.au/dropbear/dropbear-2015.67.tar.bz2
 fi
 
 #if [ ! -f ~/config.sub ]; then
